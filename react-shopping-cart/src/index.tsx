@@ -9,7 +9,5 @@ ReactDOM.render(
   <QueryClientProvider client={client}>
     <App />
   </QueryClientProvider>,
-  // <React.StrictMode>
-  // </React.StrictMode>
   document.getElementById("root")
 );
